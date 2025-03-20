@@ -233,7 +233,7 @@ const SellItemPage: React.FC = () => {
   // File input handler (mock)
   const handleFileChange = () => {
     // In a real app, would handle file uploads
-    const mockPhotoPaths = ['/assets/images/device-placeholder.jpg'];
+    const mockPhotoPaths = ['https://cdn-icons-png.flaticon.com/512/3474/3474360.png'];
     setFormValues(prev => ({ ...prev, photos: mockPhotoPaths }));
   };
   
